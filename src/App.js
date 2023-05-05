@@ -1,3 +1,15 @@
+import React from "react";
+import Slider from "./component/Slider/index.js";
+
 export default function App() {
-    return <h1 className="text-3xl font-bold underline ">Hello world!</h1>;
+
+return(
+    
+    
+    <>
+
+<Slider/>
+    </>
+)
+  
 }
