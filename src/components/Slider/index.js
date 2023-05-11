@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../img/bg1.jpg";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 // Default theme
