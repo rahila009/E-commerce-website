@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./component/Slider/index.js";
+import Slider from "./components/Slider";
 
 export default function App() {
 
