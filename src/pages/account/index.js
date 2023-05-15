@@ -8,6 +8,6 @@ const Accounts = () => {
       <Register />
     </div>
   );
-};
+}
 
 export default Accounts;

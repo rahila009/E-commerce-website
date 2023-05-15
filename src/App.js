@@ -6,8 +6,8 @@ export default function App() {
     
     return(
         <>
-    {/* <Accounts/> */}
-    <LoginPage/>
+    <Accounts/>
+    {/* <LoginPage/> */}
         </>
     )
 
