@@ -5,7 +5,7 @@ import mobile1 from "../img/mobile.png";
 const Gadezone =()=>{
   return (
     <>
-<div className=" px-[20px]  mt-[100px] lg:grid-cols-2  md:grid md:grid-cols-1  md:gap-8">
+<div className=" container mx-auto  lg:grid-cols-2  md:grid md:grid-cols-1  md:gap-8">
 {/* frist div start */}
 <div className=" grid grid-cols-2 bg-[#DEE4D2] gap-8 py-[20px]  border rounded-[12px]">
   <div className="px-3">

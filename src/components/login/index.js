@@ -2,6 +2,7 @@ import React from "react";
 
 const Login = () => {
   return (
+    <>
     <div className="mt-[30px] lg:w-[40%] lg:px-[15px] md:px-7 px-4">
       <div className="">
         <h1 className="text-[30px] mb-10 px-3 font-[Roboto] ">login</h1>
@@ -63,8 +64,9 @@ const Login = () => {
         </div>
       </div>
 
-      <div></div>
+  
     </div>
+    </>
   );
 };
 

@@ -2,8 +2,8 @@ import React from "react";
 
 const Register = () => {
   return (
-    <>
-      <div className="mt-[30px] lg:w-[40%]   px-[15px]">
+   <>
+    <div className="mt-[30px] lg:w-[40%]   px-[15px]">
         <div>
           <h1 className="text-[30px] mb-10 px-3 font-[Roboto]"> Register</h1>
           <div class="border border-[#d3ced2]  px-10 rounded-[10px] ">
@@ -49,9 +49,9 @@ const Register = () => {
           </div>
         </div>
 
-        <div></div>
+        
       </div>
-    </>
+   </>
   );
 };
 

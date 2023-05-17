@@ -12,7 +12,7 @@ import "@splidejs/react-splide/css/sea-green";
 import "@splidejs/react-splide/css/core";
 const Slider = () => {
   return (
-    <div>
+    <>
       <div className="">
         <Splide aria-label="My Favorite Images">
           <SplideSlide>
@@ -68,7 +68,7 @@ const Slider = () => {
           </SplideSlide>
         </Splide>
       </div>
-    </div>
+    </>
   );
 };
 

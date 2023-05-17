@@ -6,7 +6,8 @@ import { GiReturnArrow } from "react-icons/gi";
 
 const FreeDevilery = () => {
   return (
-    <div className="bg-[#F1F3F8 lg:px-[40px] py-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  items-center md:justify-between justify-center text-center lg:text-start">
+    <div className="bg-[#F1F3F8]  py-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  items-center md:justify-between justify-center
+     text-center lg:text-start container mx-auto">
   <div className=" items-center gap-4 mb-3 sm:mb-0 sm:w-auto lg:flex ">
     <span className="">
       <GrDeliver className="h-[40px] w-[40px] mx-auto" />

@@ -7,14 +7,14 @@ import { AiOutlineMenuFold } from "react-icons/ai";
 import { RxDividerVertical } from "react-icons/rx";
 import FreeDevilery from "../freedevivery/index.js"
 import { Link } from "react-router-dom";
-// import Login from "../login/index.js";
-import LoginPage from "../../pages/loginPage/index.js";
+
+
 const Navbar = () => {
   return (
     <>
       <div className="bg-[#222222] ">
         {/* navbar for  large   screens */}
-        <div className="md:flex hidden items-center p-4 lg:px-[40px] px-[25px] justify-between">
+        <div className="md:flex hidden items-center py-4  justify-between container mx-auto">
           <div className="text-[#F02757] lg:text-[30px] text-[16px] font-mono font-[900]">
             <span className="text-white">Mobile</span>Shutter
           </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center gap-[30px]">
             <div>
-              <Link to="/LoginPage"> <CgProfile color="white" className="w-6 h-6" /></Link>
+              <Link to="/loginPage"> <CgProfile color="white" className="w-6 h-6" /></Link>
              
             </div>
             <div className="flex items-start relative">
@@ -108,7 +108,7 @@ const Navbar = () => {
         {/* shop by categories */}
         <div className="bg-slate-300  w-full h-[1px] divide-gray-300"></div>
 
-        <div class="text-white bg-[#222222] md:flex hidden justify-between lg:px-[40px] px-[25px] items-center">
+        <div class="text-white bg-[#222222] md:flex hidden justify-between  container mx-auto items-center">
           <div className=" flex lg:gap-[30px] items-center justify-between gap-[5px]">
             <span className=" md:text-base lg:text-[20px] text-white font-[700]">
               Shop by categories
@@ -123,16 +123,16 @@ const Navbar = () => {
               <Link to="/" className="px-5 text-[14px] font-semibold">
                 HOME
               </Link>
-              <Link to="/About" className="px-5 text-[14px] font-semibold">
+              <Link to="/about" className="px-5 text-[14px] font-semibold">
                 ABOUT
               </Link>
               <Link to="/shop" className="px-5 text-[14px] font-semibold">
                 SHOP
               </Link>
-              <Link to="/Faqs" className="px-5 text-[14px] font-semibold">
+              <Link to="/faqs" className="px-5 text-[14px] font-semibold">
                 FAQS
               </Link>
-              <Link to="/Contact" className="px-5 text-[14px] font-semibold">
+              <Link to="/contact" className="px-5 text-[14px] font-semibold">
                 CONTACT US
               </Link>
             </ul>

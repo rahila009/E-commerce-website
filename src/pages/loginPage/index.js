@@ -1,13 +1,14 @@
-import React from 'react'
-import Login from '../../components/login'
+import React from "react";
+import Login from "../../components/login";
 
 const LoginPage = () => {
   return (
-    <div className='flex justify-center'>
-      <Login />
-    </div>
-  )
-}
+    <>
+      <div className="flex justify-center">
+        <Login />
+      </div>
+    </>
+  );
+};
 
-export default LoginPage 
-
+export default LoginPage;
