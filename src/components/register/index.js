@@ -40,7 +40,7 @@ const Register = () => {
 
               <div>
                 <div class="flex justify-center">
-                  <button class="w-full py-3 bg-[orange] text-white text-lg hover:bg-green-500 active:bg-orange-500 ">
+                  <button class="w-full py-3 text-white  bg-red-600 ">
                     Register
                   </button>
                 </div>

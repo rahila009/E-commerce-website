@@ -5,7 +5,20 @@ const Login = () => {
     <>
     <div className="mt-[30px] lg:w-[40%] lg:px-[15px] md:px-7 px-4">
       <div className="">
-        <h1 className="text-[30px] mb-10 px-3 font-[Roboto] ">login</h1>
+        <div className="grid grid-cols-2  ">
+          <div>
+            <h1 className="text-[30px] mb-10 px-3 font-[Roboto]  ">login</h1>
+          </div>
+          <div className="mt-4 ">
+            <a
+              href="#"
+              class="text-red-500 underline hover:text-red-600 hover:no-underline hover:border-b-2 hover:border-red-600 mt-10 text-[14px] tracking-wider px-[20px] uppercase text-end"
+            >
+              Create an Account{" "}
+            </a>
+          </div>
+        </div>
+
         <div class="border border-[#d3ced2]  px-10 rounded-[10px]   ">
           <form className=" rounded pt-6 pb-8 mb-4">
             <div class="mb-4">
@@ -54,11 +67,11 @@ const Login = () => {
                 </label>
               </div>
               <div class="flex justify-center">
-                <button class="w-full py-3 bg-[orange] text-white text-lg hover:bg-green-500 active:bg-orange-500">
+                <button class="w-full py-3  text-white text-lg  bg-red-600">
                   Login
                 </button>
               </div>
-              <p className="text-blue-600 pt-7">Lost your password?</p>
+              <p className="text-red-600 pt-7">Lost your password?</p>
             </div>
           </form>
         </div>
