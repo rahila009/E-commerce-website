@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Faqs from "./pages/Faqs";
 import Shop from "./pages/Shop";
 import LoginPage from "./pages/loginPage";
+import Accounts from "./pages/account"
 export default function App() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/faqs" element={<Faqs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/loginPage" element={<LoginPage />} />
+        <Route path="/account" element={<Accounts/>} />
       </Routes>
     </Router>
     
