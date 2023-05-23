@@ -9,7 +9,7 @@ const Gadezone =()=>{
 {/* frist div start */}
 <div className=" grid grid-cols-2 bg-[#DEE4D2] gap-8 py-[20px]  border rounded-[12px]">
   <div className="px-3">
-    <img src={bg1} />
+    <img src={bg1} alt=""/>
   </div>
   <div className="pt-6">
     <button class=" border border-gray-200 py-2 lg:px-5 md:px-4 px-3 bg-[white] text-black transition-colors hover:border-red-500 hover:bg-red-500 hover:text-white text-[20px] leading-[23px] uppercase  ">
@@ -19,7 +19,7 @@ const Gadezone =()=>{
       TAKE YOUR TRIP TO YOUR VIRTUAL WORLD
     </h2>
     <p className="pt-2">
-      <a href="#" class="underline hover:no-underline pt-1">
+      <a href="/" class="underline hover:no-underline pt-1">
         Shop now
       </a>
     </p>
@@ -31,7 +31,7 @@ const Gadezone =()=>{
 
 <div className=" bg-[#B9DCF1] grid grid-cols-2  mt-[20px] lg:mt-0  py-6 border  rounded-[12px] lg:gap-[20px] md:gap-[10px]  ">
   <div className=" px-3">
-    <img src={mobile1} />
+    <img src={mobile1} alt=""/>
   </div>
   <div>
     <div className="">
@@ -43,7 +43,7 @@ const Gadezone =()=>{
       REDMI <br /> NOTE 10S
     </h1>
     <p className="pt-2">
-      <a href="#" class="underline hover:no-underline ">
+      <a href="/" class="underline hover:no-underline ">
         Shop now
       </a>
     </p>
