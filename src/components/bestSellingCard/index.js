@@ -20,7 +20,7 @@ const BestSellingCard = ({ title, disc, img }) => {
               </div>
               <div className="pt-3">
                 <BsArrowsFullscreen />
-              </div>
+              </div>  
             </div>
           </div>
         
