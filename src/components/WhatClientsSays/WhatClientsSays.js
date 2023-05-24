@@ -5,6 +5,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import css from "../WhatClientsSays/style.css";
+import Newsletter from "../newsletter/index.js";
+
 const WhatClientsSays = () => {
   const data = reviewsCard;
 
@@ -72,6 +74,10 @@ const WhatClientsSays = () => {
             </div>
           ))}
         </Slider>
+      </div>
+
+      <div>
+        <Newsletter/>
       </div>
     </div>
   );
