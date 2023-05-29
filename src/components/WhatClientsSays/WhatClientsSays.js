@@ -39,8 +39,10 @@ const WhatClientsSays = () => {
 
   return (
     <div className="rounded-[50px] py-10  container mx-auto ">
-      <h2 className="text-black text-2xl font-semibold">What Clients Say</h2>
-      <div className="  mt-10">
+      <h2 className="text-black text-2xl font-semibold pl-[30px] lg:px-0">
+        What Clients Say
+      </h2>
+      <div className="  mt-10 container mx-auto  px-[30px] lg:px-0">
         <Slider {...settings}>
           {data.map((review) => (
             <div
@@ -77,7 +79,7 @@ const WhatClientsSays = () => {
       </div>
 
       <div>
-        <Newsletter/>
+        <Newsletter />
       </div>
     </div>
   );
