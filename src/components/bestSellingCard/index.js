@@ -2,14 +2,14 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { MdSyncLock } from "react-icons/md";
 import { BsArrowsFullscreen } from "react-icons/bs";
 const BestSellingCard = ({ title, disc, img }) => {
-    console.log(img)
+  console.log(img);
   return (
     <>
-      <div className=" w-[280px]  container mx-auto flex">
-        <div class="  bg-white  rounded-lg shadow-md  text-center mt-[50px] p-[30px] ">
+      <div className=" w-[280px] container mx-auto flex ">
+        <div class="  bg-white  rounded-lg shadow-md  text-center p-[30px]  ">
           <div className="flex w-full justify-center gap-1">
             <div className="w-full">
-                <img src = {img}  className="h-auto w-full"   alt="hello" />
+              <img src={img} className="h-auto w-full" alt="hello" />
             </div>
             <div className="">
               <div>
@@ -20,10 +20,9 @@ const BestSellingCard = ({ title, disc, img }) => {
               </div>
               <div className="pt-3">
                 <BsArrowsFullscreen />
-              </div>  
+              </div>
             </div>
           </div>
-        
 
           <div class="inline-block relative pt-5">
             <span class="before absolute top-0 left-0 w-0 h-full bg-red-500 transition-all"></span>
@@ -104,6 +103,7 @@ const BestSellingCard = ({ title, disc, img }) => {
         </div>
       </div>
     </>
+  
   );
 };
 
