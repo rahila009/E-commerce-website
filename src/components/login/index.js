@@ -11,7 +11,7 @@ const Login = () => {
           </div>
           <div className="mt-4 ">
             <a
-              href="#"
+              href="/"
               class="text-red-500 underline hover:text-red-600 hover:no-underline hover:border-b-2 hover:border-red-600 mt-10 text-[14px] tracking-wider px-[20px] uppercase text-end"
             >
               <Link to="/account">

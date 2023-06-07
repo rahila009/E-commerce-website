@@ -1,0 +1,51 @@
+export const reviewsCard = [
+  {
+    id: 1,
+    h1: "“Excellent Work”",
+    disc: "Thank you for your prompt reply! I like dealing with you guys in that you are prompt, helpful and professional and your gear has always worked as advertised.",
+    img: "/assets/images/avarta1.jpg",
+    name: "John Matthews",
+    location: "Boston, LA",
+  },
+  {
+    id: 2,
+    h1: "“Highly Recommended”",
+    disc: "I was highly impressed with technical support's efforts, and their immediate response in getting new software out to me.Can you help me install the new software",
+    img: "/assets/images/avatar2.jpg",
+    name: "John Matthews",
+    location: "Boston, LA",
+  },
+  {
+    id: 3,
+    h1: "“Fast, Quality Service”",
+    disc: "I was highly impressed with technical support's efforts, and their immediate response in getting new software out to me.Can you help me install the new software",
+    img: "/assets/images/avatar3.jpg",
+    name: "John Matthews",
+    location: "Boston, LA",
+  },
+  {
+    id: 4,
+    h1: "“Excellent Work”",
+    disc: "Thank you for your prompt reply! I like dealing with you guys in that you are prompt, helpful and professional and your gear has always worked as advertised.",
+    img: "/assets/images/avarta1.jpg",
+    name: "John Matthews",
+    location: "Boston, LA",
+  },
+  {
+    id: 5,
+    h1: "“Highly Recommended”",
+    disc: "I was highly impressed with technical support's efforts, and their immediate response in getting new software out to me.Can you help me install the new software",
+    img: "/assets/images/avatar2.jpg",
+    name: "John Matthews",
+    location: "Boston, LA",
+  },
+  {
+    id: 6,
+    h1: "“Fast, Quality Service”",
+    disc: "I was highly impressed with technical support's efforts, and their immediate response in getting new software out to me.Can you help me install the new software",
+    img: "/assets/images/avatar3.jpg",
+    name: "John Matthews",
+    location: "Boston, LA",
+  },
+ 
+];
