@@ -4,10 +4,10 @@ import React from "react";
 const Premium = () => {
   return (
     <>
-      <div className="container mx-auto mt-[100px] px-[40px] bg-gray-200 mb-8 py-10">
+      <div className="container mx-auto mt-[100px] px-[40px]  bg-gray-200 mb-8 py-10">
         <div className="grid grid-cols-2">
           <div>
-            <h1 className="text-[36px] leading-[40px] text-[#000000] font-bold px-8">The world’s premium brands in one destination </h1>
+            <h1 className="text-[36px] leading-[40px] text-[#000000] font-bold px-8">The world’s premium brands in one destination. </h1>
           </div>
           <div>
             <p className=" text-gray-500 px-8">
