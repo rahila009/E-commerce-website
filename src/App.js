@@ -10,6 +10,8 @@ import Faqs from "./pages/Faqs";
 import Shop from "./pages/Shop";
 import LoginPage from "./pages/loginPage";
 import Accounts from "./pages/account"
+import 'tailwindcss/tailwind.css';
+
 export default function App() {
   return (
     <>

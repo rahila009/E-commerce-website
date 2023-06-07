@@ -24,7 +24,7 @@ const BestProduct = () => {
         </div>
 
         <div><SellingBanner/></div>
-        <div className="flex  w-full justify-between flex-wrap sm:mx-auto" >
+        <div className="flex  w-full justify-between flex-wrap sm:mx-auto mt-4 " >
         {data2.map((item, id) => (
             <BestSellingCard
               title={item.tittle}
